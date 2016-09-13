@@ -1,4 +1,3 @@
-# 9-13-16project
 import java.util.*;
 
 /*Programmers:Collin Palmer, Zane Pelletier
@@ -30,7 +29,7 @@ public class Rail2 {
 		System.out.println(gondola+" gondola cars");
 	    System.out.println(passenger+" passenger cars");
 		      int totalweightofcars=(boxcars*53+gondola*65+passenger*70);
-		      int totalweightoftrain=(totalweightofcars+52);
+		      float totalweightoftrain=(totalweightofcars+52);
 		      int totallengthoftrain=(int) (boxcars*45.0+gondola*70.0+passenger*80.5+55.0);
 		      double exacteng=(totalweightoftrain/1000.0);
 		      double approxeng=Math.ceil(exacteng);
