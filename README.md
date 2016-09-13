@@ -1,6 +1,6 @@
 import java.util.*;
 
-/*Programmers:Collin Palmer, Zane Pelletier
+/*Programmers:Collin Palmer, Zachariach Pelletier
  * Date:9/13/16
  * COSC 111
  * Purpose: To calculate the Weight, length, and engines required for any 
