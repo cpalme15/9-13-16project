@@ -31,12 +31,12 @@ public class Rail2 {
 		      int totalweightofcars=(boxcars*53+gondola*65+passenger*70);
 		      float totalweightoftrain=(totalweightofcars+52);
 		      int totallengthoftrain=(int) (boxcars*45.0+gondola*70.0+passenger*80.5+55.0);
-		      double exacteng=(totalweightoftrain/1000.0);
-		      double approxeng=Math.ceil(exacteng);
+		      double exacteng=Math.ceil(totalweightoftrain/1000.0);
+		     
 		      
 		      
         System.out.println("The total weight of the of the cars is "+ totalweightofcars +" tons.");
-        System.out.println("The number of engines required is "+approxeng+".");
+        System.out.println("The number of engines required is "+exacteng+".");
         System.out.println("The total weight of the entire train is "+totalweightoftrain+" tons.");
         System.out.println("The total train is "+totallengthoftrain+" feet long.");
         keyboard.close();
