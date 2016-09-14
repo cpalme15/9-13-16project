@@ -39,7 +39,7 @@ public class Rail2 {
         System.out.println("The number of engines required is "+approxeng+".");
         System.out.println("The total weight of the entire train is "+totalweightoftrain+" tons.");
         System.out.println("The total train is "+totallengthoftrain+" feet long.");
-
+        keyboard.close();
 	}   
 
 }
