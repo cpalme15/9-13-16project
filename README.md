@@ -4,8 +4,10 @@
 
 Date:9/13/16
 COSC 111
-Purpose: To calculate the Weight, length, and engines required for any
-train of any given amount of the separate cars */ public class Rail2 
+Purpose: To calculate the Weight, length,
+and engines required for any
+train of any given amount of the separate cars */ 
+public class Rail2 
     {
 
     public static void main(String[] args) { // TODO Auto-generated method stub
